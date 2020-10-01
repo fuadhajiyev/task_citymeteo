@@ -1,0 +1,154 @@
+.footer-head-section {
+    width: 100%;
+    padding: 15px 0;
+    background-color: var(--main-bg-color);
+    border-bottom: 1px solid #cbd1d0;
+}
+
+
+
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo h1{
+    color:  var(--font-color);;
+}
+
+.footer-logo img {
+    width: 40px;
+    padding-right: 10px;
+}
+.footer-socials {
+display: flex;
+}
+
+.footer-socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 4px;
+    overflow: hidden;
+}
+
+.footer-socials a img {
+    background-color: var(--font-color);
+    padding: 5px;
+    width: 30px;
+
+}
+
+.footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+
+}
+
+.footer-body-section {
+    width: 100%;
+    padding: 15px 0;
+    background-color: var(--main-bg-color);
+}
+
+.footer-body ul {
+
+    margin-right: 50px;
+}
+
+.footer-body ul li {
+    color: var(--font-color);
+    font-weight: lighter;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #2857AE;
+    padding: 20px 0;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author p {
+    color: var(--font-color);
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+
+.form {
+    width: 400px;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+
+#email {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 12px 0 0 12px;
+}
+
+
+#submit {
+    width: 25%;
+    height: 44px;
+    background: var(--main-bg-color);
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--font-color);
+    letter-spacing: 1px;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+    background: #2857AE;
+}
+
+
+.form input:focus {
+    outline: none;
+    outline: 2px solid #2857AE;
+    box-shadow: 0 0 2px #2857AE;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-end {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+    
+
+}
