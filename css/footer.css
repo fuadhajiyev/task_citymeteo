@@ -149,9 +149,8 @@ footer {
         align-items: flex-start;
         flex-direction: column-reverse;
     }
-    #email {
-        width: 50%;
-     
+    .form {
+        width: 100%;
     }
 
 }
